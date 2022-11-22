@@ -1,0 +1,42 @@
+html {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+body {
+  display: flex;
+  background-color: white;
+  height: 96vh;
+  width: 100%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#container {
+  display: grid;
+  margin: auto;
+  grid-template-columns: repeat(50, 1fr);
+  grid-template-rows: repeat(50, 1fr);
+  height: 90vh;
+  width: 100%;
+  grid-gap: 0px;
+  margin-top: 5.8vh;
+}
+
+.btn--start {
+  position: fixed;
+  top: 0;
+  color: blue;
+  height: 3em;
+  width: 100%;
+  justify-content: center;
+  pointer-events: auto;
+  cursor: pointer;
+  background: #e7e7e7;
+  border: none;
+  margin: 0px;
+  font-family: inherit;
+  font-size: inherit;
+}
